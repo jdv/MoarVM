@@ -102,6 +102,8 @@ typedef enum {
     MVM_JIT_SAVED_RV,
     MVM_JIT_ARG_I64,
     MVM_JIT_ARG_PTR,
+    MVM_JIT_PARAM_I64,
+    MVM_JIT_PARAM_PTR,
 } MVMJitArgType;
 
 struct MVMJitCallArg {
